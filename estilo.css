@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#principal {
+    width: 1150px;
+    margin: 0 auto;
+}
+/* logo */
+
+span {
+    color: #d5000d;
+    font-style: italic;
+
+}
+
+#principal h2 a {
+    color: rgb(46, 46, 46);
+    font-style: italic;
+    float: left;
+    font-size: 1.4em;
+}
+
+
+/* topo */
+
+#topo {
+    padding: 35px;
+}
+
+#topo ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+
+}
+
+#topo ul li {
+    float: left;
+    padding: 5px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#topo ul li a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding: 15px;
+
+}
+
+.hoverlogin:hover {
+    box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+#topo .hover:hover{
+    color: #fff;
+    background-color: rgb(49, 49, 49);
+    border-radius: 25px;
+    text-decoration: underline;
+}
+
+#topo .login {
+    background-color: #bd000b;
+    padding: 14px 80px; 
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* conteudo */
+
+#conteudo img {
+    width: 45%;
+    float: left;
+    clear: both;
+    margin-top: 150px;
+    display: block;
+}
+
+#conteudo h4 {
+    float: left;
+    margin-left: 67px;
+    margin-top: 250px;
+    font-size: 1.3em;
+}
+
+#conteudo h3 {
+    float: left;
+    margin-left: 67px;
+    margin-right: 130px;
+    font-size: 3em;
+    color: #bd000b;
+}
+
+#conteudo a {
+    float: left;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #fff;
+    background: #bd000b;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+#conteudo a:hover {
+    box-shadow: 2px 2px rgb(49, 49, 49);
+    
+}
+
+/* conteudo pag2 */
+
+#conteudo-sobre img {
+    width: 45%;
+    float: right;
+    clear: both;
+    margin-top: 150px;
+    margin-right: 100px;
+    display: block;
+}
+
+#conteudo-sobre #lista ul {
+    float: left;
+    margin-top: 230px;
+    list-style-type: none;
+
+    
+    
+}
+
+#conteudo-sobre #lista ul li a {
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #2e2e2e;
+    background: url(img/check.png) left no-repeat;
+    background-size: 35px;
+    padding-left: 45px;
+    
+}
+
+#conteudo-sobre #lista ul li {
+    padding: 15px;
+    
+}
+
+#conteudo-sobre #lista ul li a:hover {
+    text-decoration: underline;
+}
+
+/* rodape */
+
+#rodape {
+    bottom: 0;
+    background-color: #202020;
+    margin-top: 817px;
+    line-height: 50px;
+}
+
+.rodape-text {
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+/* conteudo contato */
+
+#conteudo-contato img {
+    width: 45%;
+    float: right;
+    clear: both;
+    margin-top: 150px;
+    margin-right: 100px;
+    display: block;
+}
+
+/* form */ 
+
+#form {
+    float: left;
+    margin-top: 280px;
+}
+label {
+        
+        display: block;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 1em;
+        
+    }
+    
+.cell  {
+    padding: 15px 25px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+    border-radius: 7px;
+    font-size: 0.8em;
+    margin-left: 15px;
+        
+}
+
+.vulture {
+    padding: 13px 48px;
+    text-decoration: none;
+    background: #bd000b;
+    border-radius: 8px;
+    color: #fff;
+
+}
+
+.vulture:hover {
+    box-shadow: 2px 2px rgb(49, 49, 49);
+}
